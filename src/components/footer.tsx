@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
+const React = require("react");
+const ReactDOM =  require("react-dom");
 const classes = require('../sass/style.scss');
 
 ReactDOM.render(
