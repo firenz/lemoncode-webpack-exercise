@@ -1,0 +1,65 @@
+$base-background: indianred;
+$main-font-color: teal;
+$main-background: white;
+
+body {
+  background-color: $base-background;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: lighten($base-background, 30%);
+}
+
+main {
+  background-color: $main-background;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: $main-font-color;
+  height: 75%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+main h2 {
+  color: lighten($main-font-color, 10%);
+}
+
+footer {
+  color: $main-background;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > * {
+  margin: 1rem;
+}
+
+footer img {
+  height: 4rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.welcome {
+  font-family: monospace;
+}
+
+#imgContainer > img {
+  max-height: 5rem;
+  margin: 0.25rem;
+}
