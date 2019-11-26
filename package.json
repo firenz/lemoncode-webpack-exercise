@@ -7,7 +7,7 @@
     "start": "rimraf dist && webpack-dev-server --mode development --open --config dev.webpack.config.js",
     "build:dev": "rimraf dist && webpack --mode development --config dev.webpack.config.js",
     "build:prod": "rimraf dist && webpack --mode production --config prod.webpack.config.js",
-    "build:perf": "rimraf dist && webpack --mode development --config perf.webpack.config.js",
+    "build:stats": "rimraf dist && webpack --mode development --config perf.webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
